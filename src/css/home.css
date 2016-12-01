@@ -1,0 +1,134 @@
+
+/*-----------轮播-----------*/
+.swiper-container{
+    height:3.73rem;
+    margin-top:1.80rem;
+    border-top:1px solid #666;
+}
+.swiper-slide img{
+    width:100%;
+    height:3.73rem;
+}
+.swiper-pagination-bullet-active{
+    background:#999;
+    opacity:.9;
+    filter:alpha(opacity=90);
+}
+.swiper-pagination-bullet{ background: #fff;}
+
+/*---news---*/
+.news{
+    height:1.2rem;
+    background-color:#f5f5f5;
+    display:flex;
+    align-items:center;
+}
+.news .news-content{
+    height:0.67rem;
+    line-height:0.67rem;
+    text-align:center;
+    background-color:#fff;
+    width:100%;
+    color:#333;
+    font-size:20px;
+}
+.news .news-content i{
+    color: #e94949;
+    font-size:22px;
+    margin:0 2px;
+}
+
+/*--reChange--*/
+.reChange{
+    height:3.867rem;
+    padding:0.293rem 0.32rem 0;
+    color:#333;
+    font-size:24px;
+}
+.go-reChange{
+    color:#999;
+    float:right;
+    margin-right:0.32rem;
+}
+
+.reChange ul{
+    overflow:hidden;
+    display:flex;
+    justify-content: space-between;
+    margin-top:0.587rem;
+}
+.reChange li img{
+    width:1.466rem;
+    height:1.787rem;
+}
+/*---income---*/
+.income{
+    height:4rem;
+    background-color:#fff;
+    overflow:hidden;
+}
+.income .swiper-container{margin-top:0; overflow:visible;}
+.income .income-items:nth-of-type(1){background: url(../images/rechange1.png) no-repeat;  background-size:contain; margin-left:0.32rem; }
+.income .income-items:nth-of-type(2){background: url(../images/rechange2.png) no-repeat;  background-size:contain;}
+.income .income-items:nth-of-type(3){background: url(../images/rechange3.png) no-repeat;  background-size:contain;}
+.income .income-items:nth-of-type(4){background: url(../images/rechange4.png) no-repeat;  background-size:contain;}
+.income .income-items{
+    width:33.3%;
+    height:3.34rem;
+    float:left;
+    padding-top:0.66rem;
+
+}
+/*.income .income-items{margin-left:10px;}*/
+.income-items{
+    color:#fff;
+    text-align:center;
+}
+.income-items h3{
+    font-weight:bolder;
+    font-size:32px;
+}
+.income-items p i,
+span{ display:block;
+     font-size:24px;
+}
+.income-items p span{
+    display:block;
+    font-size:30px;
+}
+.income-items p:nth-of-type(1){margin-top:0.32rem;}
+.income-items p:nth-of-type(2){margin-top:0.213rem;}
+
+/*------interest, goose, profit-------*/
+.interest,
+.goose,
+.profit{
+    height:4rem;
+    background-color:#fff;
+}
+.interest a,
+.goose a,
+.profit a{
+    color:#999;
+    font-size:24px;
+    float:right;
+    margin-right:0.32rem;
+}
+.title{
+    height:0.933rem;
+    margin-left:0.32rem;
+    line-height:0.933rem;
+    font-size:32px;
+    color:#333;
+    font-weight:bolder;
+    border-bottom:1px solid #ccc;
+}
+.interest .title img,
+.goose .title img,
+.profit .title img{
+    width: 1.6rem;
+    height: 0.373rem;
+    vertical-align:-6px;
+}
+
+
